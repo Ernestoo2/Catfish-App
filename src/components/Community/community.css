@@ -1,0 +1,23 @@
+.community-marque {
+    max-width: 60%;
+    margin-right: -7vw;
+    animation: community-illustration 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes community-illustration {
+    from {
+      transform: scale(1) rotate(0deg);
+    }
+    to {
+      transform: scale(1.1) rotate(-10deg);
+    }
+  }
+  
+  .community-marque_top {
+    width: 120%;
+    transform: rotate(-5deg) translateX(-5vw) translateY(60px);
+  
+    @media screen and (max-width: 1023.98px) {
+      transform: rotate(-5deg) translateX(-5vw) translateY(110px);
+    }
+  }
